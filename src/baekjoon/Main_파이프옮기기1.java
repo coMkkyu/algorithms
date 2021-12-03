@@ -40,7 +40,7 @@ public class Main_파이프옮기기1 {
      *
      * @param r 현재 파이프의 끝부분 행
      * @param c 현재 파이프의 끝부분 열
-     * @param dir 현재 파이프가 놓여있는 방향
+     * @param dir 현재 파이프가 놓여있는 방향 (0: 가로, 1: 세로, 2: 대각선)
      */
     private static void dfs(int r, int c, int dir) {
         // 끝 지점에 파이프가 도달할 경우 count 증가
